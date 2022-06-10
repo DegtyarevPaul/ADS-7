@@ -4,7 +4,7 @@
 
 template<typename T>
 class TPQueue {
-private:
+ private:
   struct ITEM {
     T sym;
     ITEM* next;
@@ -16,7 +16,8 @@ private:
     return p;
   }
   ITEM* head;
-public:
+ 
+ public:
   TPQueue() :head(nullptr) {}
   T pop() {
     ITEM* temp = head;
