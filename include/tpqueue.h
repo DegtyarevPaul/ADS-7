@@ -16,7 +16,7 @@ class TPQueue {
     return p;
   }
   ITEM* head;
- 
+
  public:
   TPQueue() :head(nullptr) {}
   T pop() {
